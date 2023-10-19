@@ -12,9 +12,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -42,8 +39,6 @@ Users should be able to:
 - Mobile-first workflow
 - Sass
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 A fairly straight forward challenge: 3 column layout using flexbox. I was able to use Sass (including nesting!) I look forward to improving my Sass skills
@@ -55,13 +50,4 @@ A fairly straight forward challenge: 3 column layout using flexbox. I was able t
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/beowulf1958)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

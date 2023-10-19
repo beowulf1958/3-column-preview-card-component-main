@@ -1,0 +1,24 @@
+button {
+    width: 200px;
+    height: 40px;
+    margin-left: 16px;
+    text-align: center;
+    background-color: var(--gray);
+    border: 0;
+    border-radius: 2rem;
+    &:hover {
+        background-color: var(--clear);
+        color: var(--white-00);
+        border: 1px solid var(--gray);
+    }
+}
+
+.btn-orange {
+    color: var(--orange);
+}
+.btn-cyan {
+    color: var(--cyan);
+}
+.btn-dark {
+    color: var(--dark-cyan);
+}

@@ -1,0 +1,40 @@
+
+.card {
+    width: calc(100% / 3);
+    min-height: 30rem;
+    padding: 20px;
+
+    * {
+        margin-bottom: 50px;
+    }
+
+    p {
+        color: var(--white-75);
+    }
+}
+.orange {
+    background-color: var(--orange);
+    border-radius: 10px 0 0 10px;
+}
+.cyan {
+    background-color: var(--cyan);
+}
+.dark-cyan {
+    background-color: var(--dark-cyan);
+    border-radius: 0 10px 10px 0;
+}
+.bold {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.5rem;
+    font-weight: var(--fw-bold);
+    color: var(--white-00);
+}
+
+@media screen and (max-width:400px) {
+    .orange {
+        border-radius: 10px 10px 0 0;
+    }
+    .dark-cyan {
+        border-radius: 0 0 10px 10px;
+    }
+}

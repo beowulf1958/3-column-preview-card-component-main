@@ -1,0 +1,14 @@
+:root {
+
+    --orange: hsl(31, 77%, 52%); /* Bright orange */
+    --cyan: hsl(184, 100%, 22%); /* Dark cyan*/
+    --dark-cyan: hsl(179, 100%, 13%); /* Very dark cyan */
+    
+    --white-00: hsla(0, 0%, 100%, 1);
+    --white-75: hsla(0, 0%, 100%, 0.75); /* Transparent white (paragraphs) */
+    --gray: hsl(0, 0%, 95%); /* Very light gray (background, headings, buttons) */
+    --clear: hsla(0, 0%, 95%, 0);
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}

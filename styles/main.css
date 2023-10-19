@@ -1,0 +1,111 @@
+:root {
+  --orange: hsl(31, 77%, 52%); /* Bright orange */
+  --cyan: hsl(184, 100%, 22%); /* Dark cyan*/
+  --dark-cyan: hsl(179, 100%, 13%); /* Very dark cyan */
+  --white-00: hsla(0, 0%, 100%, 1);
+  --white-75: hsla(0, 0%, 100%, 0.75); /* Transparent white (paragraphs) */
+  --gray: hsl(0, 0%, 95%); /* Very light gray (background, headings, buttons) */
+  --clear: hsla(0, 0%, 95%, 0);
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--gray);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: var(--fw-regular);
+}
+
+main {
+  width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 400px) {
+  main {
+    flex-direction: column;
+  }
+}
+.card {
+  width: 33.3333333333%;
+  min-height: 30rem;
+  padding: 20px;
+}
+.card * {
+  margin-bottom: 50px;
+}
+.card p {
+  color: var(--white-75);
+}
+
+.orange {
+  background-color: var(--orange);
+  border-radius: 10px 0 0 10px;
+}
+
+.cyan {
+  background-color: var(--cyan);
+}
+
+.dark-cyan {
+  background-color: var(--dark-cyan);
+  border-radius: 0 10px 10px 0;
+}
+
+.bold {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.5rem;
+  font-weight: var(--fw-bold);
+  color: var(--white-00);
+}
+
+@media screen and (max-width: 400px) {
+  .orange {
+    border-radius: 10px 10px 0 0;
+  }
+  .dark-cyan {
+    border-radius: 0 0 10px 10px;
+  }
+}
+button {
+  width: 200px;
+  height: 40px;
+  margin-left: 16px;
+  text-align: center;
+  background-color: var(--gray);
+  border: 0;
+  border-radius: 2rem;
+}
+button:hover {
+  background-color: var(--clear);
+  color: var(--white-00);
+  border: 1px solid var(--gray);
+}
+
+.btn-orange {
+  color: var(--orange);
+}
+
+.btn-cyan {
+  color: var(--cyan);
+}
+
+.btn-dark {
+  color: var(--dark-cyan);
+}
